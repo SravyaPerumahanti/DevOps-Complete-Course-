@@ -10,8 +10,8 @@ DockerFile
  ```
 
 3. The Docker daemon runs the instructions in the Dockerfile one-by-one, committing the result of each instruction to a new image if necessary, before finally outputting the ID of your new image.  
-4. Whenever possible, Docker uses a build-cache to accelerate the docker build process significantly.  
-5. When you’re done with your build, you’re ready to look into scanning your image with docker scan  
+4. Whenever possible, Docker uses a build-cache to accelerate the docker build process significantly. 
+5. When you’re done with your build, you’re ready to look into scanning your image with docker scan.understood ? 
  ```sh
  docker scan hello-world
  
